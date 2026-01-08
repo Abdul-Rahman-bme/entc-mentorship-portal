@@ -186,7 +186,7 @@
         content: "";
         position: fixed;
         inset: 0;
-        background: url("assets/images/entc-logo.png") center center no-repeat;
+        background: url("assets/college/ENTC_logo_blue.png") center center no-repeat;
         background-size: 420px;
         opacity: 0.08;
         filter: blur(6px);
@@ -767,4 +767,5 @@
 
   init();
 })();
+
 

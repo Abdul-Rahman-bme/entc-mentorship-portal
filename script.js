@@ -182,6 +182,17 @@
   // Inject small style for highlight and favorite button states
   function injectEnhancementStyles() {
     const css = `
+      body::before{
+        content: "";
+        position: fixed;
+        inset: 0;
+        background: url("assets/images/entc-logo.png") center center no-repeat;
+        background-size: 420px;
+        opacity: 0.08;
+        filter: blur(6px);
+        z-index: -1;
+      }
+
       mark{ padding: 0 .12em; border-radius: .35em; }
       .fav-btn{
         border: 1px solid rgba(226,232,240,.95);
@@ -756,3 +767,4 @@
 
   init();
 })();
+
